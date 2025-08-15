@@ -1,0 +1,2 @@
+If you want, I can set this up so LangChain downloads → checks PDF type → uses OCR if needed, so it works even for screenshot PDFs.
+Do you want me to make that robust version?

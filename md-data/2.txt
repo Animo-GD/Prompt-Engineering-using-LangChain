@@ -1,0 +1,16 @@
+import requests
+from langchain.document_loaders import PyPDFLoader
+
+url = "https://sunnah.global/hadeeth/ar/pdf/3303"
+pdf_path = "hadith.pdf"
+
+# Download
+response = requests.get(url)
+with open(pdf_path, "wb") as f:
+    f.write(response.content)
+
+# Load locally
+loader = PyPDFLoader(pdf_path)
+pages = loader.load_and_split()
+
+print(len(pages), "pages loaded")

@@ -1,0 +1,1 @@
+Do you want me to give you a full one-line reinstall command that fixes pdfminer and avoids the open_filename issue in LangChain at the same time? That way you won’t have to debug this twice.

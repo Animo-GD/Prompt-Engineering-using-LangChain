@@ -1,0 +1,3 @@
+.venv
+app.env
+/wiki_chroma_db/*
